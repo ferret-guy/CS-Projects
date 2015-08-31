@@ -37,9 +37,12 @@ public class Proj1_ConcCircs
                 System.out.println("To many Args!");
                 System.exit(1);
             }
-            //Incrment the Index
+            
+			//Create new array for ints
             argsInt[i] = Integer.parseInt(args[i].trim());
-            i++;
+            
+			//Incrment the Index
+			i++;
         }
   
         //Sort Array for printing

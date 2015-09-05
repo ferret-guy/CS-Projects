@@ -8,7 +8,7 @@ public class Proj1_ConcCircs
         StdDraw.setScale(-100,100);
         StdDraw.clear(StdDraw.WHITE);
   
-        //Initilize color (RED,     GREEN,    BLUE,     YELLOW,     CYAN,       MAGENTA,    SILVER,       MAROON,   OLIVE)
+        //Initilize color (RED,      GREEN,    BLUE,     YELLOW,     CYAN,       MAGENTA,    SILVER,       MAROON,   OLIVE)
         int[][] colors = {{255,0,0},{0,255,0},{0,0,255},{255,255,0},{0,255,255},{255,0,255},{192,192,192},{128,0,0},{128,128,0}};
   
         //Initilize Index
@@ -38,11 +38,11 @@ public class Proj1_ConcCircs
                 System.exit(1);
             }
             
-			//Create new array for ints
+   //Create new array for ints
             argsInt[i] = Integer.parseInt(args[i].trim());
             
-			//Incrment the Index
-			i++;
+   //Incrment the Index
+   i++;
         }
   
         //Sort Array for printing
@@ -60,7 +60,7 @@ public class Proj1_ConcCircs
             StdDraw.filledCircle(0,0, argsInt[i]);
    
             //Write value to side of screen shifting down 20 pixels for every value
-            StdDraw.text(-90,(90-(i*10)), ""+args[i]);
+            StdDraw.text(-90,(90-(i*10)), ""+argsInt[i]);
 
             //Incrment the Index
             i--;

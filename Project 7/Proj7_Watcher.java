@@ -1,3 +1,14 @@
+/* Proj7_Watcher
+*
+* CSc 127A Fall 15, Project 07
+*
+* Author: Mark O.
+* Section: K
+*
+* ---
+*
+* Takes mouse input and draws eyes
+*/ 
 public class Proj7_Watcher {
     static void drawEye(double x, double y, double rad){
         //Pupil radious

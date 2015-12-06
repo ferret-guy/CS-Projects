@@ -93,7 +93,6 @@ public class Proj11Board{
                 }
             }
             if (!Arrays.equals(this.board[y],row)){
-                System.out.println(Arrays.toString(this.board[y])+"\n"+Arrays.toString(row));
                 this.board[y] = row;
                 change = true;
             }
@@ -117,7 +116,6 @@ public class Proj11Board{
             }
             //If the shifted row is not the same as current write it
             if (!Arrays.equals(this.board[y],row)){
-                System.out.println(Arrays.toString(this.board[y])+"\n"+Arrays.toString(row));
                 this.board[y] = row;
                 change = true;
             }
@@ -140,7 +138,6 @@ public class Proj11Board{
                 }
             }
             if (!Arrays.equals(bor_col,col)){
-                System.out.println(Arrays.toString(bor_col)+"\n"+Arrays.toString(col));
                 for (int y = 0; y < this.board.length; y++){
                     this.board[y][x] = col[y];
                 }
@@ -165,7 +162,6 @@ public class Proj11Board{
                 }
             }
             if (!Arrays.equals(bor_col,col)){
-                System.out.println(Arrays.toString(bor_col)+"\n"+Arrays.toString(col));
                 for (int y = this.board.length - 1; y >= 0; y--){
                     this.board[y][x] = col[y];
                 }
